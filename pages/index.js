@@ -59,7 +59,7 @@ export default function Home() {
       onChange={(e => setFormData({...formData, username: e.target.value}))}
       
       />
-      <button type="submit" onClick={() => CheckLogin()}>Submit</button>
+      <button className={styles.button} type="submit" onClick={() => CheckLogin()}>Submit</button>
       </main>
     </>
   )
